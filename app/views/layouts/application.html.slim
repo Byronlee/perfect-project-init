@@ -1,0 +1,7 @@
+doctype html
+html.no-js[lang="zh-CN"]
+  head
+    = content_for?(:title) ? yield(:title) : content_tag(:title, t('site.name'), s_t: t('site.name'))
+
+    = stylesheet_link_tag 'application', media: 'all'
+  body

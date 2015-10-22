@@ -1,3 +1,1 @@
-# Be sure to restart your server when you modify this file.
-
-Rails.application.config.session_store :cookie_store, key: '_recruit_session'
+Recruit::Application.config.session_store :cookie_store, namespace: 'recurit_session', key: '_recurit_session'

@@ -1,6 +1,6 @@
-## 36krx招聘系统
+## 36kr招聘
 
-36krx招聘系统.
+36kr招聘.
 
 ### System dependencies
 

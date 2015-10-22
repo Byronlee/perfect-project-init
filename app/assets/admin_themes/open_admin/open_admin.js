@@ -1,0 +1,16 @@
+//= require polymer/webcomponents
+//= require jquery
+//= require jquery_ujs
+//= require twitter/bootstrap
+//= require jquery-fileupload/basic
+//= require ./javascripts/bootstrap
+//= require ./javascripts/jquery.multi-select
+//= require ./javascripts/jquery.quicksearch
+//= require ./javascripts/open
+//= require ./javascripts/charts
+//= require ./javascripts/tagsinput
+//= require ./javascripts/color-selector
+//= require chosen-jquery
+//= require ./javascripts/chosen
+//= require ./javascripts/jquery.sortable.min
+//= require highcharts

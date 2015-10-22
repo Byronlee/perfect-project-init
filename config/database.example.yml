@@ -16,6 +16,8 @@ test:
 
 production:
   <<: *default
-  database: recruit_development
+  database: recruit_production
   username: postgres
   password: postgres
+
+

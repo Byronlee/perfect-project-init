@@ -1,0 +1,60 @@
+# -*- coding: utf-8 -*-
+zh-CN:
+  simple_form:
+    required:
+      text: 'required'
+      mark: '*'
+      html: '<abbr title="required"><font color="red">*</font></abbr>'
+    error_notification:
+      default_message: "请查看下面详细的错误提示:"
+    labels:
+      fragment_template:
+        name: 片段名称
+        content_type: 片段类型
+        content: 片段内容
+    hints:
+    placeholders:
+    prompt:
+  helpers:
+    submit:
+      post:
+        create: '创建文章'
+        update: '更新文章发布信息'
+      column:
+        create: '创建专栏'
+        update: '更新专栏'
+      head_line:
+        create: '创建头条'
+        update: '更新头条'
+      user:
+        create: '创建用户'
+        update: '更新用户'
+      comment:
+        create: '创建评论'
+      ad:
+        create: '创建广告位'
+        update: '更新广告位'
+      newsflash:
+        create: '创建'
+        update: '更新'
+      info_flow:
+        create: '创建信息流'
+        update: '更新信息流'
+      related_link:
+        create: '创建链接'
+        update: '更新链接'
+    page_entries_info:
+      one_page:
+        display_entries:
+          zero: "没有找到记录"
+          one: "显示 <b>1</b> 条记录"
+          other: "显示 <b> %{count}</b> 条记录"
+      more_pages:
+        display_entries: "显示记录 <b>%{first}&nbsp;-&nbsp;%{last}</b> / <b>%{total}</b>"
+  views:
+    pagination:
+      first: "&laquo; 首页"
+      last: "尾页 &raquo;"
+      previous: "&lsaquo; 前一页"
+      next: "下一页 &rsaquo;"
+      truncate: "&hellip;"

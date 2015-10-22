@@ -1,0 +1,26 @@
+doctype html
+html lang="en"
+  head
+    meta charset="utf-8"
+    meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"
+    meta name="viewport" content="width=device-width, initial-scale=1.0"
+    = content_for?(:title) ? yield(:title) : content_tag(:title, t('site_name'), s_t: t('site_name'))
+    = csrf_meta_tags
+    = content_for?(:og_meta) ? yield(:og_meta) : ''
+    = favicon_link_tag 'favicon.ico', :rel => 'shortcut icon'
+    = stylesheet_link_tag "admin", :media => "all"
+    = javascript_include_tag "admin"
+  body
+    .navbar.navbar-default.navbar-static-top
+      .container
+        a.navbar-brand href=""
+          .logo
+        a href=root_path target="_blank" style="float: left; padding: 15px 1px;"
+          |  → 查看首页
+        p.navbar-text.pull-right
+          = link_to "← 返回", root_path
+          = link_to "注销", destroy_user_session_path, method: :delete
+    .container
+      .col-lg-2.sidepanel.sidebar-nav
+      .col-lg-10
+        = yield
