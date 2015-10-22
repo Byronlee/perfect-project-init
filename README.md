@@ -1,6 +1,6 @@
-## 36kr招聘
+## 配置完整Rails空项目
 
-36kr招聘.
+配置完整Rails空项目.
 
 ### System dependencies
 
